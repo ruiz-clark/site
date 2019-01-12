@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+.py-5 {
+  background-color: rgb(245, 245, 245); 
+}
+
+.swiper-container {
+  position: middle; 
+  align-items: middle; 
+  width: 300px; 
+}
+
+.portfolio-section {
+  align: middle; 
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(49, 49, 53);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(100, 99, 99);
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: turquoise;
+}
+
+  @media only screen and (max-width: 520px) {
+      .swiper-container {
+        width: 300px;
+        height: 350px;
+      }
+    }  
